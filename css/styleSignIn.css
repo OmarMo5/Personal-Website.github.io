@@ -1,0 +1,51 @@
+	/* START navbar */
+.navbar {min-height:70px;background-color:#337ab7;}
+	/* normal link*/		
+.navbar-inverse .navbar-nav > li > a 
+{
+	color:#BBB;padding-top:25px;font-size:15px;
+	padding-bottom:25px;transition:all 0.7s ease-in;
+}
+.navbar-inverse .navbar-nav li #lastchild{margin-right:60px;}
+.navbar-inverse .nav > li > a:hover{color:#2c3e50;background-color:white;}
+	
+.navbar-brand {color:#BBB;margin-top:10px;}
+.navbar-brand:hover{transition:all 1.5s ease-in-out;}
+	/* dropdown-menu */
+.dropdown .dropdown-toggle{margin-right:71px;}
+.dropdown-menu 
+{
+	background-color:black;
+	min-width:200px;left:0px;right:auto;
+}	
+.dropdown-menu > li > a 
+{
+	color:#FFF;padding:6px 20px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	transition:all 1s ease;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus 
+{
+  color: #FFF;font-size:15px;font-style:italic;
+  padding-left:25px;
+}
+.dropdown-menu .divider {background-color:#871818;}
+.navbar-toggle {margin-top:18px;}
+.navbar .collapse .navbar-form{margin-top:16px;}
+
+	/*start with SignUp*/
+.reg .leftSide h3{margin:250px 0px 30px 150px;color:black;color:#337ab7;font-weight:bold;}
+.reg .leftSide p{margin-left:150px;line-height:35px;}
+.reg .leftSide p img{width:20px;height:20px;}
+
+.reg .rightSide h2{margin:120px 0px 25px 70px;}
+.reg .rightSide table{margin:auto;}
+.reg .rightSide table tr td{padding:15px;}
+.reg .rightSide table tr td input{
+	border:2px solid #f5f5f5;border-radius:15px;padding:8px;
+	width:300px;color:navy;font-size:18px;
+}
+.reg .rightSide table tr td input:hover{border:2px solid navy}
+.reg input[type="button"]{margin-left:25%;margin-top:25px;width:290px;}

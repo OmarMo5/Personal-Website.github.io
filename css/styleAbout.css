@@ -1,0 +1,50 @@
+/* STARt Carousel*/
+#myslide .topLeav{background:#e4e4eb;}
+#myslide #pi1{visibility:hidden;}
+#myslide .topLeav .carousel-inner{height:500px;}
+.carousel-caption
+{
+	bottom:150px;padding:0px 20px 10px 20px;
+}
+.carousel-caption h1{text-align:center;color:#337ab7;}
+.carousel-caption .lead{text-align:justify;color:black;}
+.carousel-indicators {bottom:10px;}
+.carousel-indicators li {height:20px;width:20px;border:1px solid #01e35a}
+.carousel-indicators .active {height:22px;width:22px;background:#337ab7; }
+
+	/*START Section About*/
+.about {padding-top:60px;padding-bottom:60px;}
+.about h1{color:#337ab7;}
+.about .lead {color:#888;font-size:20px;margin-top:15px;}
+  /*End Section About*/
+
+  /*Start Section Our Skills*/ 
+.our-skills {padding-top:40px;padding-bottom:60px}
+.our-skills h1
+{
+	margin-bottom:60px;font-style:italic;
+	color:#337ab7;font-variant:small-caps;
+}
+.our-skills .skills-progress .progress {height:36px;}
+.our-skills .skills-progress .progress-bar
+{
+	line-height:36px;font-size:18px;
+	text-align:left;text-indent:10px;
+}
+.our-skills .skills-info h2{margin-top:0;color:#337ab7;}		
+  /*End section Our Skills*/
+
+  /*Start Our Clients*/
+#to1{width:146px;height:48px;}
+.our-clients {background:#EEE;padding:20px;}
+.our-clients img
+{
+	opacity:0.5;
+	filter:alpha(opacity:40);
+	margin-top:20px;margin-bottom:20px;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+.our-clients img:hover{opacity:1}
+  /*End Our Clients*/
